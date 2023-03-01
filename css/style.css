@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+}
+.wrapper{
+    margin-top: 80px;
+    overflow: hidden;
+    height: calc(100vh - 80px);
+}
