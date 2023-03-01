@@ -11,3 +11,25 @@ header{
     overflow: hidden;
     height: calc(100vh - 80px);
 }
+#sidebar{
+    height: 100%;
+    width: 180px;
+    flex-shrink: 0;
+    background-color: rgba(6, 6, 116, 0.971);
+    background-image: url('../img/sidebar-bg.png');
+}
+main{
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100%;
+}
+.logo-boolean, .icon{
+    width: 100px;
+}
+.search{
+    width: calc(100% - 250px);
+}
+
+.aside{
+    height: 80px;
+}
