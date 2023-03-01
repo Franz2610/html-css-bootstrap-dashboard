@@ -4,18 +4,18 @@
     box-sizing: border-box;
 }
 header{
-    height: 80px;
+    height: 60px;
 }
 .wrapper{
-    margin-top: 80px;
+    margin-top: 100px;
     overflow: hidden;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 100px);
 }
 #sidebar{
     height: 100%;
     width: 180px;
     flex-shrink: 0;
-    background-color: rgba(6, 6, 116, 0.971);
+    background-color: rgba(9, 9, 65, 0.971);
     background-image: url('../img/sidebar-bg.png');
 }
 main{
@@ -32,4 +32,41 @@ main{
 
 .aside{
     height: 80px;
+}
+
+.sid-top{
+    margin-top: 20px;
+    height: calc(100% - 80px);
+}
+.sid-bot{
+    height: 50px;
+}
+.aside .badge{
+    margin-top: 10px;
+    background-color: rgba(11, 11, 106, 0.853);
+    font-size: .7rem;
+    align-items: center;
+}
+.avatar-table{
+    width: 3%;
+}
+.check-box{
+    padding: 20px;
+}
+.check-box-in{
+    border: 1px solid black;
+}
+.stats-image{
+    width: 100%;
+}
+
+
+ @media screen and (max-width: 768px) {
+
+    .aside-container{
+        flex-direction:column-reverse;
+    }
+    .aside{
+        height: 200px;
+    }
 }
