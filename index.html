@@ -17,7 +17,8 @@
             <div class="container-fluid d-flex align-item-center">
                 <div class="logo-boolean container">
                     <a class="navbar-brand" href="#">
-                    <img src="./img/logo.svg" alt="Logo" width="140" height="84" class="d-inline-block align-text-top">
+                    <img class="display-logo" src="./img/logo.svg" alt="Logo" width="140" height="84" class="d-inline-block align-text-top">
+                    <img class="mobile-logo" src="./img/mobile-logo.png" alt="mobilelogo">
                     </a>
                 </div>
                 <div class="search">
@@ -26,19 +27,27 @@
                     </form>
                 </div>
                 <div class="icon text-blue d-flex text-align-center container-fluid">
-                    <div class="dropdown">
+                    <div class="dropdown display-logo">
                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-bars"></i>
                         </button>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu display-logo">
                           <li><button class="dropdown-item" type="button">Action</button></li>
                           <li><button class="dropdown-item" type="button">Another action</button></li>
                           <li><button class="dropdown-item" type="button">Something else here</button></li>
                         </ul>
                       </div>
-                      <i class="fa-solid fa-question"></i>
-                      <i class="fa-solid fa-ellipsis-vertical"></i>
-                      <i class="fa-solid fa-bell"></i>
+                      <div class="d-flex">
+                        <div class="display-logo">
+                            <i class="fa-solid fa-question "></i>
+                        </div>
+                        <div class="display-logo">
+                            <i class="fa-solid fa-ellipsis-vertical "></i>
+                        </div>
+                        <div class="">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                      </div>
                 </div>
             </div>    
         </nav>
@@ -76,7 +85,7 @@
                                 <span class="badge rounded-pill">Piano blaze</span>
                             </div>
                         </div>
-                        <div class="flex-nowrap">
+                        <div class="">
                             <span class="badge rounded-pill">3 app</span>
                             <i class="fa-solid fa-angles-right"></i>
                             <span class="badge rounded-pill badge-plus">+</span>
@@ -93,7 +102,7 @@
                         <h6>Nuovo Studente</h6>
                         <div class="btn-student">
                             <button class="btn btn-primary fs-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
-                            <div class="offcanvas offcanvas-end w-75 " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas offcanvas-end .offcanvas.offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                 <div class="offcanvas-header">
                                     <h5 id="offcanvasRightLabel">Offcanvas right</h5>
                                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -283,28 +292,34 @@
                                 <div class="card" >
                                     <div class="card-header">
                                       <h3>Todo</h3>
-                                    </div>
-                                    
-                                    <div class="check-box container">
-                                        <div class="form-check check-box-in">
-                                            <input name="check" class="form-check-input" type="checkbox" value="2" id="flexCheckChecked">
-                                            <label class="form-check-label" for="flexCheckChecked">
-                                                <h6>Kickoff nuove classi</h6>
-                                            </label>
-                                        </div>
-                                        <div class="form-check check-box-in">
-                                            <input name="check" class="form-check-input" type="checkbox" value="3" id="flexCheckChecked">
-                                            <label class="form-check-label" for="flexCheckChecked">
-                                                <h6>Lezione su Boostrap 5 in classe #92</h6>
-                                            </label>
-                                        </div>
-                                        <div class="form-check check-box-in">
-                                            <input name="check" class="form-check-input" type="checkbox" value="3" id="flexCheckChecked">
-                                            <label class="form-check-label" for="flexCheckChecked">
-                                                <h6>Controllare username studenti</h6>
-                                            </label>
-                                        </div>
-                                    </div>
+                                    </div><div class="card container" style="width: 18rem;">
+                                        <ul class="list-group list-group-flush">
+                                          <li class="list-group-item">
+                                            <div class="form-check">
+                                                <input name="check" class="form-check-input" type="checkbox" value="2" id="flexCheckChecked">
+                                                <label class="form-check-label" for="flexCheckChecked">
+                                                    <h6>Kickoff nuove classi</h6>
+                                                </label>
+                                            </div>
+                                          </li>
+                                          <li class="list-group-item">
+                                            <div class="form-check">
+                                                <input name="check" class="form-check-input" type="checkbox" value="3" id="flexCheckChecked">
+                                                <label class="form-check-label" for="flexCheckChecked">
+                                                    <h6>Lezione su Boostrap 5 in classe #92</h6>
+                                                </label>
+                                            </div>
+                                          </li>
+                                          <li class="list-group-item">
+                                            <div class="form-check">
+                                                <input name="check" class="form-check-input" type="checkbox" value="3" id="flexCheckChecked">
+                                                <label class="form-check-label" for="flexCheckChecked">
+                                                    <h6>Controllare username studenti</h6>
+                                                </label>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                      </div>
                                 </div>
                             </div>
                             <div class="col-12 gy-4">

@@ -26,6 +26,10 @@ main{
 .logo-boolean, .icon{
     width: 100px;
 }
+.mobile-logo{
+    display: none;
+    width: 100%;
+}
 .search{
     width: calc(100% - 500px);
 }
@@ -90,6 +94,16 @@ main{
 .badge-plus{
     display: none;
 }
+.offcanvas.offcanvas-end{
+    width: 75%;
+}
+ #sidebar .sid-top .sid-icon:hover,
+ #sidebar .sid-bot:hover{
+    background-color: rgba(240, 248, 255, 0.421);
+ }
+ .fa-bell{
+    color: gold;
+ }
 
 @media screen and (max-width: 1200px){
     .badge-boolean{
@@ -122,6 +136,18 @@ main{
     .badge-plus{
         display: inline;
     }
+    .display-logo{
+        display: none;
+    }
+    .mobile-logo{
+        display: flex;
+        border-radius: 50%;
+    }
 
 
+}
+@media screen and (max-width: 576px){
+    .offcanvas.offcanvas-end{
+        width: 100%;
+    }
 }
