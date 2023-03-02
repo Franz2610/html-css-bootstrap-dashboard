@@ -87,7 +87,18 @@ main{
 #sidebar h6{
     padding-left: 3px;
 }
+.badge-plus{
+    display: none;
+}
 
+@media screen and (max-width: 1200px){
+    .badge-boolean{
+        display: none;
+    }
+    .badge-plus{
+        display: inline;
+    }
+}
  @media screen and (max-width: 768px) {
 
     .aside-container{
@@ -99,8 +110,18 @@ main{
     #sidebar h6{
         display: none;
     }
-    .offcanvas-body {
+    #sidebar i{
+        padding: 20px;
+    }
+    .offcanvas{
         width: 100%;
     }
+    .badge-boolean{
+        display: none;
+    }
+    .badge-plus{
+        display: inline;
+    }
+
 
 }
