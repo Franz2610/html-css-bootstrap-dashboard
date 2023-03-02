@@ -27,7 +27,7 @@ main{
     width: 100px;
 }
 .search{
-    width: calc(100% - 250px);
+    width: calc(100% - 500px);
 }
 
 .aside{
@@ -58,6 +58,25 @@ main{
 }
 .stats-image{
     width: 100%;
+}
+.icon .btn{
+    font-size: 0.5rem;
+    color: black;
+    background-color: white;
+    border: 0px;
+}
+.icon i{
+    padding: 9px;
+}
+.new-boolean .btn{
+    padding: 2px;
+    border: 1px solid white;
+}
+.new-boolean{
+    margin-top: 15px;
+}
+.new-boolean h6{
+    padding-right: 5px;
 }
 
 

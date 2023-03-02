@@ -15,9 +15,9 @@
     <header class="fixed-top">
          <nav class="navbar bg-body-tertiary">
             <div class="container-fluid d-flex align-item-center">
-                <div class="logo-boolean">
+                <div class="logo-boolean container">
                     <a class="navbar-brand" href="#">
-                    <img src="./img/logo.svg" alt="Logo" width="120" height="84" class="d-inline-block align-text-top">
+                    <img src="./img/logo.svg" alt="Logo" width="140" height="84" class="d-inline-block align-text-top">
                     </a>
                 </div>
                 <div class="search">
@@ -25,8 +25,20 @@
                         <input class="form-control me-2" type="search" placeholder="Prova a cercare lezioni di Lavarel" aria-label="Search">
                     </form>
                 </div>
-                <div class="icon text-blue">
-                    icone
+                <div class="icon text-blue d-flex text-align-center container-fluid">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><button class="dropdown-item" type="button">Action</button></li>
+                          <li><button class="dropdown-item" type="button">Another action</button></li>
+                          <li><button class="dropdown-item" type="button">Something else here</button></li>
+                        </ul>
+                      </div>
+                      <i class="fa-solid fa-question"></i>
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                      <i class="fa-solid fa-bell"></i>
                 </div>
             </div>    
         </nav>
@@ -64,13 +76,25 @@
                         <h6>Studenti online negli ultimi 30min</h6>
                         <h2>125</h2>
                     </section>
-                    <section class="new-boolean">
+                    <section class="new-boolean d-flex text-align-center align-items-stretch">
                         <h6>Nuovo Studente</h6>
+                        <div class="btn-student">
+                            <button class="btn btn-primary fs-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    ciao
+                                </div>
+                            </div>
+                        </div>
                     </section>
                 </div>
 
             </div>
-            <section class="container-fluid">
+            <section class="container-fluid small">
                 <div class="row">
                     <div class="col-12 col-lg-8 gy-4">
                         <div class="row gy-4">
@@ -94,56 +118,56 @@
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
-                                            <td>Done</td>
+                                            <td><span class="badge bg-success">Done</span></td>
                                             <td>icon</td>
                                           </tr>
                                           <tr>
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
-                                            <td>Done</td>
+                                            <td><span class="badge bg-warning text-dark">Process</span>                                            </td>
                                             <td>icon</td>
                                           </tr>
                                           <tr>
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
-                                            <td>Done</td>
+                                            <td><span class="badge bg-success">Done</span></td>
                                             <td>icon</td>
                                           </tr>
                                           <tr>
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
-                                            <td>Done</td>
+                                            <td><span class="badge bg-success">Done</span></td>
                                             <td>icon</td>
                                           </tr>
                                           <tr>
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
-                                            <td>Done</td>
+                                            <td><span class="badge bg-success">Done</span></td>
                                             <td>icon</td>
                                           </tr>
                                           <tr>
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
-                                            <td>Done</td>
+                                            <td><span class="badge bg-success">Done</span></td>
                                             <td>icon</td>
                                           </tr>
                                           <tr>
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
-                                            <td>Done</td>
+                                            <td><span class="badge bg-success">Done</span></td>
                                             <td>icon</td>
                                           </tr>
                                           <tr>
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
-                                            <td>Done</td>
+                                            <td><span class="badge bg-danger">Failed</span></td>
                                             <td>icon</td>
                                           </tr>
                                         </tbody>
