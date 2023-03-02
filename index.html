@@ -47,11 +47,21 @@
     <div class="wrapper d-flex">
         <nav id="sidebar" class="text-white">
             <section class="sid-top">
-                <h6>Home</h6>
-                <h6>Stats</h6>
-                <h6>Signals</h6>
+                <div class="sid-icon d-flex">
+                    <i class="fa-solid fa-house"></i>
+                    <h6>Home</h6>
+                </div>
+                <div class="sid-icon d-flex">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h6>Stats</h6>
+                </div>
+                <div class="sid-icon d-flex">
+                    <i class="fa-solid fa-signal"></i>
+                    <h6>Signals</h6>
+                </div>
             </section>
-            <section class="sid-bot">
+            <section class="sid-bot d-flex">
+                <i class="fa-solid fa-gear"></i>
                 <h6>Admin</h6>
             </section>
         </nav>
@@ -86,7 +96,50 @@
                                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
-                                    ciao
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                          <label for="inputEmail4" class="form-label">Email</label>
+                                          <input type="email" class="form-control" id="inputEmail4">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputPassword4" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+                                        <div class="col-12">
+                                          <label for="inputAddress" class="form-label">Address</label>
+                                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                        </div>
+                                        <div class="col-12">
+                                          <label for="inputAddress2" class="form-label">Address 2</label>
+                                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputCity" class="form-label">City</label>
+                                          <input type="text" class="form-control" id="inputCity">
+                                        </div>
+                                        <div class="col-md-4">
+                                          <label for="inputState" class="form-label">State</label>
+                                          <select id="inputState" class="form-select">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                          <label for="inputZip" class="form-label">Zip</label>
+                                          <input type="text" class="form-control" id="inputZip">
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                              Check me out
+                                            </label>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <button type="submit" class="btn btn-primary">Sign in</button>
+                                        </div>
+                                      </form>
                                 </div>
                             </div>
                         </div>
@@ -119,56 +172,56 @@
                                             <td>15/02/'21</td>
                                             <td>20%</td>
                                             <td><span class="badge bg-success">Done</span></td>
-                                            <td>icon</td>
+                                            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash-can"></i></td>
                                           </tr>
                                           <tr>
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
-                                            <td><span class="badge bg-warning text-dark">Process</span>                                            </td>
-                                            <td>icon</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
-                                            <td>15/02/'21</td>
-                                            <td>20%</td>
-                                            <td><span class="badge bg-success">Done</span></td>
-                                            <td>icon</td>
+                                            <td><span class="badge bg-warning text-white">Process</span>                                            </td>
+                                            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash-can"></i></td>
                                           </tr>
                                           <tr>
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
                                             <td><span class="badge bg-success">Done</span></td>
-                                            <td>icon</td>
+                                            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash-can"></i></td>
                                           </tr>
                                           <tr>
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
                                             <td><span class="badge bg-success">Done</span></td>
-                                            <td>icon</td>
+                                            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash-can"></i></td>
                                           </tr>
                                           <tr>
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
                                             <td><span class="badge bg-success">Done</span></td>
-                                            <td>icon</td>
+                                            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash-can"></i></td>
                                           </tr>
                                           <tr>
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
                                             <td><span class="badge bg-success">Done</span></td>
-                                            <td>icon</td>
+                                            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash-can"></i></td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
+                                            <td>15/02/'21</td>
+                                            <td>20%</td>
+                                            <td><span class="badge bg-success">Done</span></td>
+                                            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash-can"></i></td>
                                           </tr>
                                           <tr>
                                             <th scope="row"><img  class="avatar-table" src="./img/class-avatar.jpg" alt=""> Classe 92</th>
                                             <td>15/02/'21</td>
                                             <td>20%</td>
                                             <td><span class="badge bg-danger">Failed</span></td>
-                                            <td>icon</td>
+                                            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash-can"></i></td>
                                           </tr>
                                         </tbody>
                                       </table>                                
@@ -179,11 +232,44 @@
                                     <div class="card-header">
                                         <h3>F.A.Q</h3>
                                     </div>
-                                    <ul class="list-group list-group-flush container ">
-                                      <li class="list-group-item ">Come aggiungere un nuovo studente?</li>
-                                      <li class="list-group-item ">Come posso accedere alle mie informazioni?</li> 
-                                      <li class="list-group-item">Posso usare questa dashboard da mobile?</li> 
-                                    </ul>
+                                    <div class="accordion container" id="accordionExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                              <h6>Come aggiungere un nuovo studente?</h6>
+                                            </button>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>Come aggiungere un nuovo studente?</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                              <h6>Come posso accedere alle informazioni del mio account?</h6>
+                                            </button>
+                                          </h2>
+                                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>Come posso accedere alle informazioni del mio account?</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                              <h6>Posso usare questa dashboard da mobile?</h6>
+                                            </button>
+                                          </h2>
+                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>Posso usare questa dashboard da mobile?</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
                                 </div>
                             </div>
                         </div>

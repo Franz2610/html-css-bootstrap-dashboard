@@ -78,7 +78,15 @@ main{
 .new-boolean h6{
     padding-right: 5px;
 }
-
+.fa-pen,
+.fa-trash-can{
+    border: 1px solid grey;
+    font-size: 12px;
+    padding: 3px;
+}
+#sidebar h6{
+    padding-left: 3px;
+}
 
  @media screen and (max-width: 768px) {
 
@@ -88,4 +96,11 @@ main{
     .aside{
         height: 200px;
     }
+    #sidebar h6{
+        display: none;
+    }
+    .offcanvas-body {
+        width: 100%;
+    }
+
 }
